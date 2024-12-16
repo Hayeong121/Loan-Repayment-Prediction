@@ -58,7 +58,7 @@
      
 7. **Tableau 대시보드 구축**
    - 최종 모델인 CatBoost로 피처 중요도와 비즈니스 지식을 결합해 중요한 변수 13개에 대한 데이터 추출
-   - 2개의 파트
+   - 2개의 파트<br>
       a. 전체 대출 상태를 모니터링하는 신용 모니터링 시스템
         <br>
         <img src="https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_1.png" width="700px"><br>
