@@ -8,8 +8,7 @@
    - 미국 P2P 대출 기업 **Lending Club의 데이터 셋**
    - 총 141개의 컬럼과 약 300만개의 행으로 구성
    - 컬럼을 개인 정보, 신용 기록, 대출 정보, 정책 자금 파트로 구분
-     ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/data_ex.jpg)
-     
+     ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/data_ex.jpg){: width="100"} /n
      
 2. **타겟 정의**
    - 프로젝트 목적 구체화하고 적합한 데이터 추출
@@ -49,9 +48,9 @@
    - 최종 모델인 CatBoost로 피처 중요도와 비즈니스 지식을 결합해 중요한 변수 13개에 대한 데이터 추출
    - 두개의 파트로 구성
       - 전체 대출 상태를 모니터링하는 신용 모니터링 시스템
-        ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard1.jpg)
+        ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_1.png)
       - 고객의 신용 프로파일을 분석해 대출 가능 여부 파악하는 개인 신용 요인 분석 시스템 (SHAP 값 활용)
-        ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard2.jpg)
+        ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_2.png)
    -	데이터 간의 관계를 유기적으로 연결하여 대시보드에서 모든 데이터가 상호작용하며 작동하도록 구성
    
 8. **결론**
