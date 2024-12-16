@@ -8,7 +8,8 @@
    - 미국 P2P 대출 기업 **Lending Club의 데이터 셋**
    - 총 141개의 컬럼과 약 300만개의 행으로 구성
    - 컬럼을 개인 정보, 신용 기록, 대출 정보, 정책 자금 파트로 구분
-     ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/data_ex.jpg){: width="100"} /n
+     <img src="https://github.com/Hayeong121/asac_lendingclub/blob/main/image/data_ex.jpg" width="200px">
+     /n
      
 2. **타겟 정의**
    - 프로젝트 목적 구체화하고 적합한 데이터 추출
