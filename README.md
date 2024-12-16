@@ -58,13 +58,13 @@
      
 7. **Tableau 대시보드 구축**
    - 최종 모델인 CatBoost로 피처 중요도와 비즈니스 지식을 결합해 중요한 변수 13개에 대한 데이터 추출
-   - 두개의 파트로 구성
+   - 2개의 파트
       - 전체 대출 상태를 모니터링하는 신용 모니터링 시스템
         <br>
-        <img src="https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_1.png" width="600px"><br>
+        <img src="https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_1.png" width="800px"><br>
       - 고객의 신용 프로파일을 분석해 대출 가능 여부 파악하는 개인 신용 요인 분석 시스템 (SHAP 값 활용)
         <br>
-        <img src="https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_2.png" width="600px"><br>
+        <img src="https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_2.png" width="800px"><br>
    -	데이터 간의 관계를 유기적으로 연결하여 대시보드에서 모든 데이터가 상호작용하며 작동하도록 구성
      <br>
    
