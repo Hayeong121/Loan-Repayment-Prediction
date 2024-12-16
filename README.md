@@ -26,6 +26,7 @@
       - 대출 기간 및 대출 목적
       - 지역별 및 재직 기간별 불량 대출률
         <br>
+        <br>
      
 4. **데이터 전처리**
    - z-score 동일 기준을 정하여 극단값 제거
@@ -42,6 +43,7 @@
    - DATA Leakage(시간 순서 위배, 타겟에 정보 제공) 변수들 삭제
    - 가설을 통한 데이터 검증 후 논리적으로 어긋나는 행 삭제
    - 통계기반의 변수선택법을 통해 변별력 없는 변수 삭제
+     <br>
      <br>
      
 6. **모델링/하이퍼파라미터튜닝**
@@ -60,11 +62,9 @@
       - 전체 대출 상태를 모니터링하는 신용 모니터링 시스템
         <br>
         <img src="https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_1.png" width="600px"><br>
-        <br> 
       - 고객의 신용 프로파일을 분석해 대출 가능 여부 파악하는 개인 신용 요인 분석 시스템 (SHAP 값 활용)
         <br>
         <img src="https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard_2.png" width="600px"><br>
-        <br>
    -	데이터 간의 관계를 유기적으로 연결하여 대시보드에서 모든 데이터가 상호작용하며 작동하도록 구성
      <br>
    
@@ -72,5 +72,4 @@
    -	최종 성능 AUROC 0.74의 모델 개발
    -	개별 고객 맞춤형 분석으로 해석성 제공할 수 있는 대시보드 제작
    -	동일 데이터를 활용한 타 논문 5개 대비 가장 우수한 성능
-<br>
 <br>
