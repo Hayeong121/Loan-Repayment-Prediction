@@ -8,10 +8,13 @@
    - 미국 P2P 대출 기업 **Lending Club의 데이터 셋**
    - 총 141개의 컬럼과 약 300만개의 행으로 구성
    - 컬럼을 개인 정보, 신용 기록, 대출 정보, 정책 자금 파트로 구분
+     ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/data_ex.jpg)
+     
      
 2. **타겟 정의**
    - 프로젝트 목적 구체화하고 적합한 데이터 추출
    - 목적에 맞게 타겟 변수의 값 이진화 작업 수행
+     ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/target_definition.jpg)
 
 3. **EDA**
    - 각 개별 변수 기술 통계량 확인, 상관성이 높은 변수와 관련성 파악
@@ -26,6 +29,7 @@
    - 왜도가 심한 변수들 Box-Cox 변환 후, Min-Max 스케일링 적용
    - 범주형 데이터 원 핫 인코딩, 카운터 인코딩 적용
    - 고유값이 과하게 많은 범주형 데이터는 그룹화하여 새로운 파생 변수 생성
+     ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/feature_selection.jpg)
 
 5. **변수 선택**
    - EDA를 통한 변수와 타겟과의 관계 분석 후 변별력 없는 변수 삭제
@@ -39,12 +43,15 @@
    - 튜닝하지 않은 베이스 모델과 튜닝 후 모델 성능 비교
       - 하이퍼파라미터 튜닝방식은 GridSearch/RandomSearch와 Optuna 사용
    - CatBoost 모델이 타 모델에 비해 AUC, F1-score에서 0.01 더 우수한 성능을 보여 최종 모델로 선정
+     ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/modeling.jpg)
      
 7. **Tableau 대시보드 구축**
    - 최종 모델인 CatBoost로 피처 중요도와 비즈니스 지식을 결합해 중요한 변수 13개에 대한 데이터 추출
    - 두개의 파트로 구성
       - 전체 대출 상태를 모니터링하는 신용 모니터링 시스템
+        ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard1.jpg)
       - 고객의 신용 프로파일을 분석해 대출 가능 여부 파악하는 개인 신용 요인 분석 시스템 (SHAP 값 활용)
+        ![image](https://github.com/Hayeong121/asac_lendingclub/blob/main/image/dashboard2.jpg)
    -	데이터 간의 관계를 유기적으로 연결하여 대시보드에서 모든 데이터가 상호작용하며 작동하도록 구성
    
 8. **결론**
