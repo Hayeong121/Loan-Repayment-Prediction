@@ -1,5 +1,6 @@
 # 💸P2P 플랫폼 대출 상환 예측 모델 개발
 > 본 연구는 개별 고객의  **대출상환 여부**를 예측하는 신용도 평가 모형 개발 프로젝트입니다.
+<br>
 
 ## 프로젝트 소개
 **프로젝트 목적** : 우·불량 고객 분류하는 예측력이 있으면서, 개별 고객에 대응할 수 있는 해석력도 갖춘 대출 상환 예측 시스템 개발
@@ -14,6 +15,7 @@
 * **개발환경** : Google Colab <img src="https://github.com/user-attachments/assets/d301ccf8-c112-4567-9fd2-31a32a6b0641" width="60" height="35"/>
 
 * **대시보드** : Tableau <img src="https://github.com/Hayeong121/assets/blob/main/images/tableau%20logo.jpg"  width="35" height="35"/>
+<br>
 
 ## 프로젝트 수행 과정
 
