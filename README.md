@@ -13,7 +13,7 @@
 
 * **개발환경** : Google Colab <img src="https://github.com/user-attachments/assets/d301ccf8-c112-4567-9fd2-31a32a6b0641" width="60" height="35"/>
 
-* **대시보드** : Tableau <img src="https://github.com/Hayeong121/assets/blob/main/images/tableau%20logo.jpg"  width="60" height="35"/>
+* **대시보드** : Tableau <img src="https://github.com/Hayeong121/assets/blob/main/images/tableau%20logo.jpg"  width="60" height="60"/>
 
 ## 프로젝트 수행 과정
 
